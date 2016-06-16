@@ -1,0 +1,286 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JDialog" name="adduser">
+      <Properties>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[300, 300]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="registerButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel3" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="usertype" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rpass" alignment="0" pref="127" max="32767" attributes="0"/>
+                      <Component id="ruser" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="142" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ruser" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="rpass" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="usertype" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="56" max="32767" attributes="0"/>
+                  <Component id="registerButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="ruser">
+        </Component>
+        <Component class="javax.swing.JTextField" name="rpass">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Username:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Password: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="registerButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Register"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="registerButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="User Type:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="usertype">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Admin"/>
+                <StringItem index="1" value="Employee"/>
+                <StringItem index="2" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="842" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Component id="jScrollPane3" min="-2" pref="651" max="-2" attributes="0"/>
+              <EmptySpace pref="171" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="397" max="32767" attributes="0"/>
+              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+              <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="432" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="64" max="32767" attributes="0"/>
+              <Component id="jScrollPane3" min="-2" pref="177" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="135" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Search by Item"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Search by Date:"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable3">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="6" rowCount="4">
+                <Column editable="true" title="Custome Name" type="java.lang.Object"/>
+                <Column editable="true" title="Recycle Item" type="java.lang.Object"/>
+                <Column editable="true" title="Price/KL" type="java.lang.Object"/>
+                <Column editable="true" title="Total/KL" type="java.lang.Object"/>
+                <Column editable="true" title="Over all Total" type="java.lang.Object"/>
+                <Column editable="true" title="Date" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add User"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Êşº¾   33
+ S 
+ T 
+ S  ‘
+  	 S ’ “
+  	 S ” •
+ 
+ 	 S –	 S — ˜
+  	 S ™
+ S š ›
+  œ 
+ 
+ œ 
+  ¡
+ 
+ ¢ £ ¤
+ S ¥
+  ¦
+ § ¨	 © ª
+  «
+ ¬ ­	 © ®
+  ¯
+ ° ±
+ ¬ ²
+ ° ³
+ ¬ ´
+ ¬ µ
+ ° ¶
+ ° ·
+ ¬ ¸
+  ¹	 © º
+  »
+ S ¼ ½
+ / 
+ / ¾	 / ¿ À Á	 / Â Ã
+  Ä
+ 5 Å Æ
+ 8  Ç
+ 8 È
+  É Ê
+ 8 Ë Ì Í Î Ï Ğ Î Ñ
+ 5 Ò Ó Ô Õ
+ F 
+ F Ö × Ø
+ J 
+ J Ö Ù
+ Ú Û Ü İ
+ P 
+ Ş ß à á jButton1 Ljavax/swing/JButton; jLabel1 Ljavax/swing/JLabel; jLabel2 pass Ljavax/swing/JPasswordField; user Ljavax/swing/JTextField; <init> ()V Code LineNumberTable LocalVariableTable this Llogin; initComponents layout Ljavax/swing/GroupLayout; #org.netbeans.SourceLevelAnnotations Ljava/lang/SuppressWarnings; value 	unchecked jButton1ActionPerformed (Ljava/awt/event/ActionEvent;)V aa Ladmin; jm 
+LJunkMain; db 
+LDatabase; pcode Ljava/lang/String; sql2 rs Ljava/sql/ResultSet; e Ljava/lang/Exception; evt Ljava/awt/event/ActionEvent; StackMapTable à â ½ Ã ã Ü main ([Ljava/lang/String;)V args [Ljava/lang/String; 
+access$000 &(Llogin;Ljava/awt/event/ActionEvent;)V x0 x1 
+SourceFile 
+login.java l m ^ _ e _ javax/swing/JLabel W X javax/swing/JTextField \ ] javax/swing/JButton U V Y X javax/swing/JPasswordField Z [ ä å 
+Username:  æ ç 	Log In >> login$1   InnerClasses ^ è é ê 	Password: javax/swing/GroupLayout ë ì ^ í î ï ğ ñ ó ô õ ÷ ø ù ú û ô ü ş ÿ ù 	
+ ô _ Database _ java/lang/String ^ java/lang/StringBuilder #Select * from user where username='  '! "#$ ã%& password'()* usertype Admin admin+ _ Employee JunkMain Wrongg Account,-. java/lang/Exception login$2/01 login javax/swing/JFrame java/awt/event/ActionEvent java/sql/ResultSet setDefaultCloseOperation (I)V setText (Ljava/lang/String;)V 
+(Llogin;)V addActionListener "(Ljava/awt/event/ActionListener;)V getContentPane ()Ljava/awt/Container; (Ljava/awt/Container;)V java/awt/Container 	setLayout (Ljava/awt/LayoutManager;)V !javax/swing/GroupLayout$Alignment 	Alignment LEADING #Ljavax/swing/GroupLayout$Alignment; createParallelGroup ParallelGroup L(Ljavax/swing/GroupLayout$Alignment;)Ljavax/swing/GroupLayout$ParallelGroup; %javax/swing/GroupLayout$ParallelGroup addGap ,(III)Ljavax/swing/GroupLayout$ParallelGroup; TRAILING createSequentialGroup SequentialGroup +()Ljavax/swing/GroupLayout$SequentialGroup; 'javax/swing/GroupLayout$SequentialGroup .(III)Ljavax/swing/GroupLayout$SequentialGroup; addComponent =(Ljava/awt/Component;)Ljavax/swing/GroupLayout$ParallelGroup; addGroup2 Group J(Ljavax/swing/GroupLayout$Group;)Ljavax/swing/GroupLayout$SequentialGroup; @(Ljava/awt/Component;III)Ljavax/swing/GroupLayout$ParallelGroup; k(Ljavax/swing/GroupLayout$Alignment;Ljavax/swing/GroupLayout$Group;)Ljavax/swing/GroupLayout$ParallelGroup; addContainerGap -(II)Ljavax/swing/GroupLayout$SequentialGroup; ?(Ljava/awt/Component;)Ljavax/swing/GroupLayout$SequentialGroup; H(Ljavax/swing/GroupLayout$Group;)Ljavax/swing/GroupLayout$ParallelGroup; setHorizontalGroup "(Ljavax/swing/GroupLayout$Group;)V BASELINE setVerticalGroup pack database con Ljava/sql/Connection; java/sql/Connection createStatement ()Ljava/sql/Statement; stmt Ljava/sql/Statement; getPassword ()[C ([C)V append -(Ljava/lang/String;)Ljava/lang/StringBuilder; getText ()Ljava/lang/String; toString java/sql/Statement executeQuery ((Ljava/lang/String;)Ljava/sql/ResultSet; next ()Z 	getString &(Ljava/lang/String;)Ljava/lang/String; equals (Ljava/lang/Object;)Z show javax/swing/JOptionPane showMessageDialog )(Ljava/awt/Component;Ljava/lang/Object;)V java/awt/EventQueue invokeLater (Ljava/lang/Runnable;)V javax/swing/GroupLayout$Group ! S T     U V    W X    Y X    Z [    \ ]     ^ _  `   ;     	*· *· ±    a            b       	 c d    e _  `      ¢*» Y· µ *» Y· µ 	*» 
+Y· µ *» Y· µ *» Y· µ *¶ *´ ¶ *´ ¶ *´ » Y*· ¶ *´ ¶ » Y*¶ · L*¶ +¶ ++² ¶ ÿ¶  ² !+¶ "+² !¶ ² +¶ "===¶ #+² ¶ *´ ¶ $*´ ¶ $¶ %(((¶ #+² ¶ *´ 	 ÿ¶ &*´  ÿ¶ &¶ %¶ '+¶ " Øÿ¶ (*´ ¶ )¶ *¶ %ggg¶ #¶ '¶ +++² ¶ ,ÿ¶  +¶ "===¶ #+² ,¶ *´ 	şş¶ &*´ ¶ $¶ %%%%¶ #+² ,¶ *´ ¶ $*´ şş¶ &¶ %;;;¶ #*´ ¶ )Pÿ¶ (¶ *¶ -*¶ .±    a   B    $  %  & ! ' , ( 7 * < , E . N / ] 5 f 7 r 8 z 9 L ]¡ ^ b      ¢ c d   r0 f g  h     i  j[ s k  l m  `  Ü     Ù» /Y· 0M,¶ 1² 2¹ 3 ³ 4» 5Y*´ ¶ 6· 7N» 8Y· 9:¶ ;*´ 	¶ <¶ ;=¶ ;¶ >:² 4¹ ? :¹ @ ™ p-A¹ B ¶ C™ %D¹ B E¶ C™ » FY· G:¶ H§ D-A¹ B ¶ C™ %D¹ B I¶ C™ » JY· K:¶ L§ M¸ N§ 	M¸ N§ 	M,¸ N±    Ï Ò O  a   R    c  d  e  f & g F h R i \ j } k † l ‹ n ¯ o ¸ p ½ s À t É y Ï ~ Ò | Ó } Ø  b   \ 	 †  n o  ¸  p q   Ç r s  & © t u  F ‰ v u  R } w x  Ó  y z    Ù c d     Ù { |  }   / ÿ   ~  €   ‚  1ÿ   ~   B ƒ 	 „ …  `   9     » PY· Q¸ R±    a   
+    … 
+ Š b        † ‡   ˆ ‰  `   :     *+· ±    a        b        Š d      ‹ |   Œ         2         P      ©  ò@ ¬  ö  °  ı                                                                                                                                                                                                                                                                             ÔT;;³wcrÄ›’qó¯ÃŞ™—ÿ PtuS‚kÇyÓÏ”7”BœQZ÷yş"OLäµösC“Ñ‚&«p¿ËA»7 ¾5âŠ3§(øiè(`µÏ%EşX«>šdÒåÓê:ÈíQZ:ºpÃîB?ÌGÀü5úAjÃ,Z~OÚOijly >êú‘Aß‰$˜WIm¦ìÉsûMàtú íˆ“™—ö(å÷1Tjìö]Y©jk§âUv´JOÜŒr™Å·ôwÓjéY©*#áWû-#’ï0ó"Ş‡®G–Ôf•ô¹u½]t¢ıÕío .q°òš
+l‡"¤Ë¨ÇÑ×ÆÃ™ñ<ğÛ§–‚,Û9«*_°+MÈ|`Óî¡–ÃC!å }9fô”ZJy¡†iªSÈ¡­ş&Ö½äc:Qdï›æT”¹l%**¦HcP×˜ÿ Nx&ésQ¶¡ÕÓ$.Z’˜"·&7÷©ùƒß£îœYuNkR¡ ÊS©Œ‘³T8÷Ïå]½q.ÌJ:7ÑÅ¼òzô½w•ô"˜WXı ÉišñåÃß8Ô]jÌ™ZJzh³Zq¿#{öñC¿Âø®œpJñH%F*Èã„©ÁøÚúŸ9j–¦h×¬“‡†4Ê¾d=q	&ŒÊdÓôÔµ-c¢–GŒq4»°<Á,IÛ,¿ˆS,°h *¦‚˜'†3‰s3*”÷Z2(v^İ°æ®H¸Ì¾\¾)ékMå{;†—"yãfŒÉ,Nüj—6P/¿cs'³Ù}%uU@†šZ‰-ÃkfÃµ™l|Äº&B…ExzA}¹–ƒ”ÀñƒÍ!«d+\u0;§Şv;_,š‚±æ’|·=Ë–V,WEÀb€íË(NBC6 ‹…R¢EW`<ÎÙrÖJ–JšV"›5´º]m)5!I
+9T‹Oé òUj\»‚bĞ--ÕØ9cÅë°ø`Giiu.¬¢È¢'Û¬ª•+¹>¢Àx‘‹W¤=/K©krøréä§ÍX2F–â‹†å‹?hÜó¹çË}é¦Òtµ³æ-O&kVÁá$ªD»*‚@;ó>ØÊØé<¥›ÑÄ±(~íÚLIÄ^0ÏäİBöT¦gBMƒ-CUE¥²I¦!b¢£†ê‹µ”*@c"fõõYş{S]Vo=L…ÏrÀ< ÛÓçÒ0Š£IÒÓ$·”Ô ‘Töp±ø|±Ge¹lµ~ÍC@:ÌÃ1˜RÆû‚âíåcğ¾ğşÉD´‚íiŸäMIàŸ¹ô…ŒJü£1­,âĞú>iá5ef¤¨CÕGzZ;ÖÃù|puÒÖ§úƒJUKğÕL:˜-ÏˆöúŸLe¹E&ŸÓ4v^-$b+Ûv6İ‰7>¸Í½4çíœêv¤…¸©(ˆ[‘ıóü‡¦*’7úUo*iÁT$×ş£!©õ…n0äÄöÅyfynıà/#ºÉëœZp
+/>9I²/ûÛÀãYè\˜im!—eL>Ò­©n|S>í.^C—DZpWjœºšhÁ¦ËfuwOöH|¶6ÿ V4UQ5QiİBîÜ†|@´
+–İšŞ7zÊÿ G! ‹4’6ŠSÇ!ïß8k<C1Ôô„^1í³w_u‰O›q7œcÙ½JE³ ’{0ÃJ~Ò‚£5&e'\€óX@áˆ~ÍúkÏ¾ªÒ5KÚz¿³%şğ<Gô†ùb’Üš§gÚou®j:èV­)…L*â3Y òòŒı«sƒêLÃ0bxe˜ÁìA²ü€Å»ôzÊ¦®Î'Œ()ccş#f€àQo"±ä=ãâ1­º:ÊÎE£rúY,å:é¿ò?¼ßÛÓÏMçSgX¢Qœ/Ñ Äb}±6ĞReÙC)ËĞB:×$Èªèªj³š$FÒ<¶áp ¹÷…g~2dËÅ#IhÕÍÂŞö×Æ‹éÓ94zFJTkK]"Ó‹sÍÀ[×Ô«3=Üáó/™8ê”RM*h)™+°‚”•¹^©4gï²4¦@î´óç´VşÎ y¤#·ó;ìï†y…b¼ç©P° 	ÚÜ*9b2º­a…¤¸áQsŒçeµ5#?tQ‰e8o¬u•.AAÛøS>Ê©5•LyT‹Ô´JõV—Ö×³@çØ°†‡Ñ1éG.gQ™Äª¥¼|m™ˆ¹° Xò'–$2ĞÙfBQjìÈ‰å¿5ğ/õÇ‚µ€½ğÄÚ3ˆ–T‹N‘À>CóLjeå>‘Õƒ¶™«S—`|æúŠŸ/Éjsvà-÷°ôf*8búİeÍ	19åKÜµk2-ë‹¥Pj
+Á”Íocx™êÜuˆvØIÇlÕtg“¾c”õPQu€ÍM7í8Òû…mˆ¸Û{óÅ“¢µŸa2â&Ro¹{ Àjk
+-)i™Qe8”ŠÓvt÷ãıĞ¾Q¤MeXÿ ˜æòÙ‰Ø…?q~şc³W|ç=¤Ê#vXä7”òB—¸×‡«³;’okX ;è˜Ù…fm8"Z–ê£¿bìÍoucÍ[BòŞ}ëEß«9œİä!—Ê|¬¦Ìf®¯~gA_²ëİiã	–0£„Ám±™útÎa©cË£{ÅDõ¿Ì{ğ?<_ÙÆe>zê†´T±³H{‚‹ÿ ÷2©›1Ìª«*Ú'•¤qÜI¹œ½0çáå–]™rmCèÀs?8 ±&¡j9&ò×ñıdÿ ]êìº‘—Š°K/w{Æşd(õÆ¬™ÂÅä1Rı´ïÙ3\êU÷ö¦‹¼ÚÌÿ 2£òâÊÌjRd’V
+ˆ¥™ äâ'N§Ìí¨%Qˆh©Äú!u¼ú’åNT õŠ§,ÛÛu\4×†ÇıÇÜÿ \eôæ¥Êq²Şí3|Åó|â·1’÷ª™å ö}Ñè6ÅŸĞ6§Î*s*ŠøÃSE@—7 q©H:ÏGì´¸ïÒÚE{I§™0şU¥IÉ¥´
+ª'8!ª‚oÛ†ùu0Íó¸id6¥ˆuÕ°"ïo_å|—TœÒ7I!+$j]¬yùéóÁvS*ÑéCT ™ó)˜3…Û‡ıøã-›‘zAE·E—~øÔLÀvX*\â³tæy€	´‡Y¾cí•ÒÏÃe?p^ü+ÈETUK“`Î’n+l0Ú~±Ìèè‰áYäÏ€Üü°ÙÓ-Ë5•àÚ	òtl»Lš‰EªóFë7æ°¯İ§8§mÉå…ug]™Jˆ¼1Cû(ÓU]†!Ş}¶_÷l›SŒ@“eKFÕÁÖY¼uÈh(43Š–¨1ÒÄeclipse.preferences.version=1
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.7
+org.eclipse.jdt.core.compiler.codegen.unusedLocal=preserve
+org.eclipse.jdt.core.compiler.compliance=1.7
+org.eclipse.jdt.core.compiler.debug.lineNumber=generate
+org.eclipse.jdt.core.compiler.debug.localVariable=generate
+org.eclipse.jdt.core.compiler.debug.s
